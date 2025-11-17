@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Dunjun Hexplorer</title>
+    <link>https://dunjunhexplorer.xyz/categories/</link>
+    <description>Recent content in Categories on Dunjun Hexplorer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2022 00:00:00 -0400</lastBuildDate><atom:link href="https://dunjunhexplorer.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discography</title>
+      <link>https://dunjunhexplorer.xyz/categories/discography/</link>
+      <pubDate>Wed, 30 Nov 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://dunjunhexplorer.xyz/categories/discography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

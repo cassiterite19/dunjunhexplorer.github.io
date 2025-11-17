@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Lato;
+    src: url('../font/Lato.ttf');
+}
+
+/* Colors ----------------------------------------------------------------------------*/
+html {
+  background: #090000 url("../img/backgroundlines.svg") top center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+body {
+  background-color: #09001B;
+  color: #dfdfdf;
+  border-left: 2px solid #FF00DC;
+  border-right: 2px solid #FF00DC;
+}
+a {
+  color: #ff00dc;
+}
+a:visited {
+  color: #ff00dc;
+}
+a:hover, a:visited:hover {
+  background-color: #E75D00;
+  color: #090000;
+}
+header {
+  background-color: black;
+  border-bottom: 2px solid #FF00DC;
+}
+footer {
+  background-color: black;
+  border-top: 2px solid #FF00DC;
+}
+.front-page-cards aside {
+  background-color: #E75D00;
+  color: #090000;
+}
+.front-page-cards aside a {
+  color: #09001B;
+}
+.front-page-cards aside a:visited {
+  color: #2b0081;
+}
+.front-page-cards aside a:hover, .front-page-cards aside a:visited:hover {
+  color: #FF00DC;
+  background-color: #090000;
+}
+.front-page-cards img {
+  border: 1px solid #FF00DC;
+}
+
+/* Header ----------------------------------------------------------------------------*/
+header {
+  width: 100%;
+  text-align: center;
+}
+header h1 {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 50px;
+  margin: 12.5px 0 12.5px 0;
+  padding: 0;
+}
+header > nav {
+  padding: 12.5px 0 12.5px 0;
+}
+header > nav ul {
+  list-style: none outside;
+  padding: 0;
+  margin: 0;
+}
+
+  /* Header Desktop ---------------------------------*/
+@media (min-width: 825px) {
+  header {
+    height: 75px;
+    overflow: hidden;
+    text-align: left;
+  }
+  header h1 {
+    margin-left: 25px;
+    max-width: 375px;
+  }
+  header > nav {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 50%;
+  }
+  header > nav li {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 25px;
+  }
+}
+
+/* Main ------------------------------------------------------------------------------*/
+.front-page-cards {
+  text-align: center;
+}
+.front-page-cards h2 {
+  line-height: 115%;
+}
+.front-page-cards article {
+  padding: 5px;
+}
+.metadata {
+  line-height: 1.5em;
+}
+.front-page-cards aside {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 500;
+}
+.front-page-cards aside h3 {
+  padding-top: 25px;
+}
+.front-page-cards aside .btn-container {
+  margin-bottom: 25px;
+}
+main img {
+  width: 250px;
+  height: 250px;
+}
+
+main article {
+  padding: 0 1em;
+}
+  /* Main Desktop -----------------------------------*/
+@media (min-width: 768px) {
+  .front-page-cards div {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .front-page-cards div article {
+    width: 47.5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .front-page-cards aside {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .front-page-cards aside h3 {
+    padding-top: 5.25px;
+  }
+  .post figure {
+    float: right;
+  }
+}
+
+/* Page ------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 960px;
+  max-width: 95%;
+  font: 16pt/18pt Lato, sans-serif;
+}
+
+aside p {
+  padding: 0 1em;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+footer p {
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+}
